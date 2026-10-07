@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: voxo-private
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeployTrigger: commit
